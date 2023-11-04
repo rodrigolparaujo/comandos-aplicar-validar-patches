@@ -1,4 +1,4 @@
-##Compilação por linha de comando
+#Compilação por linha de comando
 
 Principais características:
 
@@ -9,7 +9,9 @@ Suporte a atual chave de compilação utilizada pelo TDS e TDSCli.
 Chave de compilação para Linux utilizando criptografia AES 256bits.
 Compatível com Sistemas Operacionais Windows e Linux.
 
-##Validando um patch
+<img src="compilar.png">
+
+#Validando um patch
 
 Exemplo: 
 c:\totvs\protheus\bin\appserver\appserver.exe -compile -validatepatch -outreport -env=NomeAmbiente -files=c:\totvs\atualizacoes\projeto_piloto_16674742_dtexpro-457_12_1_2310_tttm120_hp.ptm
@@ -21,7 +23,7 @@ Parametros:
 -env	          Informa o ambiente que deverá ser acessado para compilação.
 -files          Informa o patch a ser aplicado com extensão  ("PTM", "UPD" E "PAK").
 
-##Aplicação de Patch
+#Aplicação de Patch
 
 Exemplo: 
 c:\totvs\protheus\bin\appserver\appserver.exe -compile -applypatch -outreport -env=NomeAmbiente -files=c:\totvs\atualizacoes\projeto_piloto_16674742_dtexpro-457_12_1_2310_tttm120_hp.ptm
